@@ -1,0 +1,33 @@
+﻿2018.9.4
+
+* page页面修复面包屑导航重复数据问题
+
+
+
+2018.8.22
+
+* seoInfo() 方法添加SEO和OG标签输出开关 "seoInfo($pageData=[], $ogData=[], $onSeoTag=true, $onOgTag=true)"
+
+* view 层添加常规输出代码块
+
+
+
+
+2018.8.14
+
+* 修复 SEO 信息错误问题
+
+* 修改 setting 文件，添加后台设置AMP地址，删除部分配置项
+
+* 添加后台填写AMP地址后自动设置AMP link 标签
+
+
+2018.8.10
+
+* 修复 page 页面SEO错误问题
+
+* 修复 page 页面设置跳转不成功问题
+
+* 修复 getNavData 设置顶级默认参数不生效问题
+
+* 修复 搜索时数据库查询错误问题

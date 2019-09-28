@@ -1,0 +1,309 @@
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css */
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    a[href^="#"]:after {
+        content: "";
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+/*! CSS Used from: https://v4-assets.goalsites.com/wubeiren/sitizen/v1/assets/css/style.css */
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+i {
+    font-style: italic;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+::-webkit-input-placeholder {
+    color: #272727;
+}
+
+::-moz-placeholder {
+    color: #272727;
+}
+
+:-ms-input-placeholder {
+    color: #272727;
+}
+
+:-moz-placeholder {
+    color: #272727;
+}
+
+a.scrollup:visited {
+    border-radius: 50px;
+}
+
+.button-circle {
+    border-radius: 100%;
+}
+
+a {
+    color: #323232;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: #6F6F6F;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #0593DF;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #0593DF;
+}
+
+::selection {
+    color: #fff;
+    background: #0593DF;
+}
+
+#btn-scrollup {
+    display: none;
+}
+
+a.scrollup,
+a.scrollup:visited {
+    background-color: #0593DF;
+    bottom: 50px;
+    color: #ffffff;
+    float: right;
+    line-height: 1.2;
+    padding: 12px 17px;
+    position: fixed;
+    right: 32px;
+    text-align: center;
+    z-index: 999;
+}
+
+a.scrollup:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+a.scrollup:hover,
+a.scrollup:focus,
+a.scrollup:active {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.scrollup i {
+    font-size: 20px;
+}
+
+/*! CSS Used from: https://v4-assets.goalsites.com/wubeiren/sitizen/v1/assets/css/footer-1.css */
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a {
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: medium none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
+.fa-angle-up:before {
+    content: "\f106";
+}
+
+/*! CSS Used from: https://use.fontawesome.com/releases/v5.2.0/css/all.css */
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-angle-up:before {
+    content: "\f106";
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fas {
+    font-weight: 900;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.eot);
+    src: url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.eot);
+    src: url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.2.0/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
